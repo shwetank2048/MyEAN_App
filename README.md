@@ -3,7 +3,9 @@ Custom editor for creating design patterns
 
 CLone the project .
 Run npm install for both frontend and backend.
+
 start frontend using : ng-serve
+
 start backend using : npm run dev
 
 FUNCTIONALITY:
