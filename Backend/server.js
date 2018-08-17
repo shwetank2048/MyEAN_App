@@ -45,20 +45,7 @@ app.post('/canvas/add',(req,res)=>{
 		
 });
 
-app.get('/canvas',(req,res)=>{
-	let query= "select image from `tablename` WHERE id = 4";
-	
-    connection.query(query, function (err, result) {
-		  if (err) throw err
 
-			// console.log(result[0].image);
-			// var bufferBase64 = new Buffer( result[0].image, 'binary' ).toString('base64');
-			//console.log(bufferBase64);
-			res.send(result)
-		})   
-
-		
-});
 
 app.listen(3003);
 console.log("Express server listening on port 3003 %s mode",  app.settings.env);
